@@ -1,0 +1,7 @@
+I've always been driven by the idea of producing technology for future generations. I like to imagine what my kids or grandkids may need in 40-50 years, and what I can do in my life to help them. <br>
+
+My father has been an aerospace engineer for 37 years, and speaking with him over the years ignited my interest in space and technology. I've also been building computers since I was 15 years old, which gave me a desire to gain a deeper understanding of how they worked. <br>
+
+I attended DaVinci Institute in 2016 for a Python Web development bootcamp, and decided software development is what I wanted to do with my life, and could offer me a path to follow after my father in the aerospace industry. I continued to work with Python on and off for a couple of years, until 2019 when I was able to attend Turing School of Software & Design. <br>
+
+Turing's Back-End Engineering program taught me everything I needed and wanted to know to pursue a job in the industry. I learned everything from writing Ruby, and how the Agile development process works, to deploying full Sinatra and Rails apps on Heroku. I worked on an array of projects in over 1000 hours between solo, paired, and group projects. These projects grew my knowledge and enhanced my 'software developer tool belt', and gave me the confidence to pursue work as a Software Engineer. <br>
