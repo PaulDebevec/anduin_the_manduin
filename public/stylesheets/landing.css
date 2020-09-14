@@ -112,12 +112,6 @@ section#about h1 {
   padding-top: 70px;
 }
 
-@media only screen and (max-width: 1250px) {
-  section#about {
-    height: 125vh;
-  }
-}
-
 @media only screen and (max-width: 1212px) {
   section#about {
     height: 135vh;
@@ -162,7 +156,18 @@ section#about h1 {
 
 @media only screen and (max-width: 480px) {
   section#about {
-    height: 232vh;
+    height: 234vh;
+  }
+}
+
+@media only screen and (max-width: 390px) {
+  section#about {
+    height: 255vh;
+  }
+  section#about p {
+    width: 90%;
+    height: 255vh;
+    overflow-y: auto;
   }
 }
 
@@ -234,6 +239,12 @@ section#projects p {
   }
 }
 
+@media only screen and (max-width: 880px) {
+  section#projects img {
+    width: 90vw;
+  }
+}
+
 section#projects a {
   text-decoration: none;
   color: #f4f4f4;
@@ -296,10 +307,4 @@ section#contact {
 
 @media only screen and (max-width: 880px) {
 	.span_2_of_2, .span_1_of_2 { width: 100%; }
-}
-
-@media only screen and (max-width: 880px) {
-  section#projects img {
-    width: 90vw;
-  }
 }
