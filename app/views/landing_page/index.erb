@@ -22,14 +22,43 @@
         <p> <%= @quote.text %><br><%= @quote.author %></p>
       </section>
       <section id="about">
-        <h1>About</h1>
-        <div style="padding-right: 100px; padding-left: 100px;">
+        <h1 style="padding-bottom: 10vh">About</h1>
         <p><%= File.read('lib/about.txt') %></p>
-      </div>
       </section>
+
       <section id="projects">
-        <h1>Project Experience</h1>
-        <p> Coming Soon! </p>
+        <h1 style="padding-bottom: 15vh">Project Experience</h1>
+
+        <div class="section group" style="padding-bottom: 20vh">
+          <a href="#"><h2>Solarizer</h2></a>
+          <div class="col span_2_of_2">
+            <img src="https://alumni.turing.io/sites/default/files/styles/project_screenshot/public/project_screenshots/Screen%20Shot%202020-08-19%20at%209.53.26%20AM.png?itok=atUVAjEW" alt="solarizer app photo">
+          </div>
+        	<div class="col span_1_of_2">
+            <p>This application allows for users to configure a hypothetical solar power generation system through a series of forms to predict monthly energy output and utility savings. After configuration, the user is provided data in a table and can choose to view the same datapoints as several types of charts. We hope that having access to this information in a friendly user interface will encourage wider adoption of green energy sources.</p>
+        	</div>
+        </div>
+
+        <div class="section group" style="padding-bottom: 20vh">
+          <a href="#"><h2>Garden That</h2></a>
+          <div class="col span_2_of_2">
+            <img src="https://alumni.turing.io/sites/default/files/styles/project_screenshot/public/project_screenshots/Screen%20Shot%202020-08-19%20at%2010.02.51%20AM.png?itok=P1G8Cyfz" alt="garden that landing page">
+          </div>
+          <div class="col span_1_of_2">
+            <p>GardenThat allows visitors to view different plants in our database. Visitors may also create an account and sign in with Google. Once logged in, users may create a virtual garden to receive calendar events for their virtual garden water reminders, and harvest schedule.</p>
+          </div>
+        </div>
+
+        <div class="section group" style="padding-bottom: 20vh">
+          <a href="#"><h2>Jam Session</h2></a>
+          <div class="col span_2_of_2">
+            <img src="https://alumni.turing.io/sites/default/files/styles/project_screenshot/public/project_screenshots/Screen%20Shot%202020-08-19%20at%2010.11.50%20AM.png?itok=lnxvZwBt" alt="garden that landing page">
+          </div>
+          <div class="col span_1_of_2">
+            <p>Jam Session is a time blocking application that allows users to log in with their Spotify account and listen to their favorite playlists while they work!</p>
+          </div>
+        </div>
+
       </section>
       <section id="contact">
         <h1>Contact Me</h1>
@@ -38,7 +67,6 @@
         <a href="https://twitter.com/DevDebevec" class="fab fa-twitter" style="font-size: 65px; color: Dodgerblue; padding: 20px;"></a></p>
       </section>
     </div>
-
     <!-- SmoothScroll -->
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
     <!-- Font Awesome -->
