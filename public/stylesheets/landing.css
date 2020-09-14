@@ -64,6 +64,9 @@ body {
 section h1 {
   font-size: 4rem;
 }
+section h2 {
+  font-size: 2rem;
+}
 
 section p {
   font-size: 1.5rem;
@@ -142,6 +145,11 @@ section#projects h1 {
   padding-top: 70px;
 }
 
+section#projects h2 {
+  text-transform: uppercase;
+
+}
+
 section#projects img {
   width: 45vw;
 }
@@ -149,6 +157,15 @@ section#projects img {
 section#projects p {
   height: 45vh;
   overflow-y: scroll;
+}
+
+section#projects a {
+  text-decoration: none;
+  color: #f4f4f4;
+}
+
+section#projects a:hover {
+  color: skyblue;
 }
 
 section#contact {
