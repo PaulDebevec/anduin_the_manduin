@@ -7,7 +7,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background: #333;
   color: #e8e8e8;
-  light-height: calc(1.6em + 0.5vw);
+  line-height: 1.6;
   height: 100vh;
   overflow-x: hidden;
 }
@@ -43,7 +43,7 @@ body {
 .navbar ul li a {
   text-decoration: none;
   text-transform: uppercase;
-  color: #f4f4f4;
+  color: #e8e8e8;
 }
 
 .navbar ul li a:hover {
@@ -73,9 +73,10 @@ section#home {
 
 section#home p {
   padding-top: 8vh;
-  padding-left: 3vw;
-  padding-right: 3vw;
-  width: 74vw;
+  padding-right: 5vw;
+  padding-left: 5vw;
+  max-width: 736px;
+  width: auto;
   height: auto;
 }
 
@@ -116,7 +117,10 @@ section#about {
 }
 
 section#about p {
-  width: 74%;
+  width: auto;
+  padding-right: 5vw;
+  padding-left: 5vw;
+  max-width: 736px;
   height: auto;
 }
 
@@ -125,7 +129,7 @@ section#about h1 {
 }
 
 section#projects {
-  background: rgba(0, 0, 0, .3) url('../images/landing-page/eclipse.jpg') no-repeat center;
+  background: rgba(0, 0, 0, .6) url('../images/landing-page/eclipse.jpg') no-repeat center;
   background-size: cover;
   background-attachment: fixed;
   background-blend-mode: darken;
@@ -165,7 +169,7 @@ section#projects p {
 
 section#projects a {
   text-decoration: underline;
-  color: #f4f4f4;
+  color: #e8e8e8;
 }
 
 section#projects a:hover {
