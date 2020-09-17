@@ -23,4 +23,8 @@ class ApplicationController < Sinatra::Base
   get '/projects/garden-that' do
     erb :'/projects/garden-that/show'
   end
+
+  get '/projects/sweater-weather' do
+    erb :'/projects/sweater-weather/show'
+  end
 end
