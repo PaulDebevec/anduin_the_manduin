@@ -50,19 +50,6 @@ body {
   color: skyblue;
 }
 
-/* Section styling */
-section h1 {
-  font-size: 4rem;
-}
-section h2 {
-  font-size: 2rem;
-}
-
-section h5 {
-  font-size: 1rem;
-  margin: 0% 0% 0% 0%;
-}
-
 section#projects {
   background: rgba(0, 0, 0, .6) url('../images/landing-page/eclipse.jpg') no-repeat center;
   background-size: cover;
@@ -74,12 +61,15 @@ section#projects {
   justify-content: center;
   text-align: center;
   width: 100%;
-  padding-top: 18vh;
+  padding-top: 25vh;
 }
 
 section#projects p {
   font-size: 1.5rem;
-  margin: 2% 10% 0% 10%;
+  max-width: 736px;
+  margin: 2% 26% 0% 26%;
+  width: auto;
+  height: auto;
 }
 
 section#projects img {
@@ -88,7 +78,7 @@ section#projects img {
 }
 
 section#projects a {
-  font-size: 2rem;
+  font-size: calc(13px + 4vw);
   text-decoration: underline;
   text-transform: uppercase;
   color: #e8e8e8;
@@ -96,6 +86,21 @@ section#projects a {
 
 section#projects a:hover {
   color: skyblue;
+}
+
+section#projects a {
+}
+
+section#projects h2 {
+  font-size: calc(17px + 3vw);
+}
+
+section#projects h4 {
+  font-size: calc(12px + 1.5vw);
+}
+
+section#projects h5 {
+  font-size: calc(8px + 1vw);
 }
 
 /* Table styling */
