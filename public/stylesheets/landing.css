@@ -67,7 +67,7 @@ section#home {
   justify-content: center;
   text-align: center;
   width: 100%;
-  min-height: 110vh;
+  min-height: 120vh;
   height: auto;
 }
 
@@ -78,6 +78,15 @@ section#home p {
   max-width: 736px;
   width: auto;
   height: auto;
+}
+
+section#home img {
+  min-width: 330px;
+  border-radius: 50%;
+  width: 15vw;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  overflow-x: hidden;
 }
 
 @media only screen and (max-width: 1920px) {
