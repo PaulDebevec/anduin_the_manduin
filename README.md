@@ -1,6 +1,4 @@
-<iframe
-  src='https://dbdiagram.io/embed/6033fa02fcdcb6230b20fafe'
- ></iframe>
+<iframe src='https://dbdiagram.io/embed/6033fa02fcdcb6230b20fafe'></iframe>
 
 <iframe
   src="https://codepen.io/team/codepen/embed/preview/PNaGbb"
