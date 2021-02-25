@@ -1,10 +1,3 @@
-<iframe src='https://dbdiagram.io/embed/6033fa02fcdcb6230b20fafe'></iframe>
-
-<iframe
-  src="https://codepen.io/team/codepen/embed/preview/PNaGbb"
-  style="width:100%; height:300px;"
-></iframe>
-
 # Table of Contents
 
 * [About](#about)
