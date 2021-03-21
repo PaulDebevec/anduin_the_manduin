@@ -20,7 +20,10 @@
       <section id="home">
         <h1>Paul Debevec<br>Software Engineer</h1>
         <img src="../images/landing-page/headshot.png" alt="Paul Debevec Headshot">
-        <p> <%= @quote.text %><br><%= @quote.author %></p>
+        <section id="random-quote">
+          <a href="" class="gen-button">Generate Random Quote</a>
+          <p> <%= @quote.text %><br><%= @quote.author %></p>
+        </section>
       </section>
       <section id="about">
         <h1 style="padding-bottom: 10vh">About</h1>

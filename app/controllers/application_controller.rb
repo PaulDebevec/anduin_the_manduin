@@ -1,5 +1,6 @@
 require './config/environment'
 
+
 class ApplicationController < Sinatra::Base
 
   configure do
@@ -8,7 +9,7 @@ class ApplicationController < Sinatra::Base
   end
 
   get '/' do
-    @quote ||= QuoteService.get_quote
+    @quote = QuoteService.get_quote
     erb :'/landing_page/index'
   end
 
